@@ -52,9 +52,10 @@
         android:id="@+id/button4" />
 
     <TextView
-        android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
-        tools:textSize="36sp" />
+        tools:textSize="36sp"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_purple" />
 </LinearLayout>
