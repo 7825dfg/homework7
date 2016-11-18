@@ -14,17 +14,15 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:ems="10"
-        android:digits="0123456789"
         android:id="@+id/editText1" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:ems="10"
-        android:digits="0123456789"
         android:id="@+id/editText2" />
 
     <Button
@@ -51,6 +49,12 @@
         android:layout_height="wrap_content"
         android:id="@+id/button4" />
 
+    <Button
+        android:text="Remainder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,4 +62,5 @@
         tools:textSize="36sp"
         android:textSize="30sp"
         android:textColor="@android:color/holo_purple" />
+
 </LinearLayout>
